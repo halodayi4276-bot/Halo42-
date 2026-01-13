@@ -1,0 +1,11 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "devCommand": "python app.py",
+  "framework": "fasthtml",
+  "env": [
+    {
+      "key": "PYTHONUNBUFFERED",
+      "value": "1"
+    }
+  ]
+}
